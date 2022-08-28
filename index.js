@@ -20,7 +20,7 @@ app.post("/", (req, res) => {
 
     var bmi = Math.floor(w / (h * h));
 
-    res.send(`<p style="display:flex;align-items:center;justify-content:center;height:90vh;font-size:4rem;">Your BMI is ${bmi}</p>`)
+    res.send(`Your BMI is ${bmi}`);
 });
 
 var port = 3000;
